@@ -56,7 +56,7 @@ join countries c on l.country_id=c.country_id
 
 Select first_name, hire_date, FIRST_VALUE(hire_date)over (partition by country_name ) from employees
 
-
+--fghj
 
 
 
